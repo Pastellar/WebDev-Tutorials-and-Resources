@@ -1,0 +1,12 @@
+/* Usage Options: 
+    1.) Paste the box-shadow line into any section's CSS to give all sections of that type a border
+    2.) If you only want specific sections to have a border, type this class next to the section class in the HTML code ( e.g., class="section1 dual-color-border" )
+    3.) Specify the border through HTML style speficiations ( e.g., style="box-shadow: -50px -50px 0 -40px #373E80, 50px 50px 0 -40px rgb(242, 226, 203);" )
+
+You can change the colors by swapping out the #.... and rgb(...) with whatever colors you desire. 
+In this example, I used a muted navy blue and muted dandelion yellow.
+*/
+
+.dual-color-border {
+        box-shadow: -50px -50px 0 -40px #373E80, 50px 50px 0 -40px rgb(242, 226, 203);
+    }

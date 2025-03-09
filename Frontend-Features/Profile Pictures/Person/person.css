@@ -1,0 +1,44 @@
+/* This code was used to display profiles of people that were attending an event. */
+
+  .person-flex {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin: 1.5rem;
+}
+/* Paragraph tags often need to be hidden when coding our webpages. Using it typically leads to odd results.*/
+.person-flex p {   
+    display: none;
+}
+.person {
+    text-align: center;
+    width: 100%;
+    min-width: 220px;
+    padding: 10px;
+}
+.person p {
+    display: none;
+}
+.person h4 {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #2f27d8;
+        margin-bottom: 5px;
+        text-wrap: nowrap;
+    }
+    .person h5 {
+        font-size: 0.85rem;
+        margin-bottom: 5px;
+        text-wrap: nowrap;
+    }
+.person img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 60%;
+    margin-bottom: 10px;
+}

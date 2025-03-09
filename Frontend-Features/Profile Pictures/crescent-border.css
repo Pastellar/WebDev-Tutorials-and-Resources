@@ -1,0 +1,36 @@
+/* 
+    This border is tailored to be used with my 'person' code, but it can be adjusted to border other elements as well.
+    The colors are changeable, I used a soft orange that fades into white.
+ */
+
+ .crescent-border {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.crescent-border::after {
+    content: '';
+    border-radius: 49%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 95%;
+    width: 85%;
+    background: conic-gradient(
+        from 30deg,
+        #fe665b,
+        rgb(242, 226, 203) 46%,
+        transparent 46%
+    );
+    -webkit-mask: radial-gradient(
+        farthest-side,
+        transparent calc(100% - 3px),
+        #fff calc(100% - 3px + 1px)
+    );
+    mask: radial-gradient(
+        farthest-side,
+        transparent calc(100% - 3px),
+        #fff calc(100% - 3px + 1px)
+    );
+}

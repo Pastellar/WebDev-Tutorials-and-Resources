@@ -1,0 +1,31 @@
+/* Below are some simple examples on how to align flexbox elements using the properties mentioned in the overview. */
+
+/*** Center Elements Horizontally ***/
+/* Achieved using the `justify-content` property */
+.container {
+    display: flex;
+    justify-content: center;    /* Centers the elements */
+    width: 100%;
+    height: 500px;
+}
+
+
+/*** Center Elements Vertically ***/
+/* Achieved using the `align-items` property */
+.container {
+    display: flex;
+    align-items: center;        /* Centers the elements */
+    width: 100%;
+    height: 500px;
+}
+
+
+/*** Center Elements Horizontally and Vertically ***/
+/* Achieved using the `justify-content` and `align-items` properties */
+.container {
+    display: flex;
+    justify-content: center;    /* Centers the elements */
+    align-items: center;        /* Centers the elements */
+    width: 100%;
+    height: 500px;
+}

@@ -1,0 +1,46 @@
+/*  A simple carousel with cells that can be customized to contain any type of content you desire.
+    As you'll see in other examples, I've personally
+ */
+
+.carousel-title {
+    text-align: center;
+    font-size: clamp(1.5rem, 5vw, 2,5rem);
+    margin-top: -4rem;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+.carousel {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.carousel-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.flickity-prev-next-button {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    opacity: 0.6;
+}
+.flickity-prev-next-button:hover {
+    background: transparent;
+    opacity: 1;
+}
+.flickity-prev-next-button .arrow {
+    fill: #79a5c4;
+}
+.flickity-prev-next-button.no-svg {
+    color: #79a5c4;
+}
+.flickity-prev-next-button.previous { left: 0; }
+.flickity-prev-next-button.next { right: 0; }
+.flickity-prev-next-button:disabled { display: none; }
